@@ -11,13 +11,13 @@ from streamlit_option_menu import option_menu
 
 # loading the models
 
-heart_diseases_model = pickle.load(open("C:/Users/arsla/OneDrive/Desktop/ML_deploy/heart_diseases_model.sav" , "rb"))
+heart_diseases_model = pickle.load(open("heart_diseases_model.sav" , "rb"))
 
-parkinsons_model = pickle.load(open("C:/Users/arsla/OneDrive/Desktop/ML_deploy/parkinsons_model.sav" , "rb"))
+parkinsons_model = pickle.load(open("parkinsons_model.sav" , "rb"))
 
-diabetes_model = pickle.load(open("C:/Users/arsla/OneDrive/Desktop/ML_deploy/diabetes_model.sav" , "rb"))
+diabetes_model = pickle.load(open("diabetes_model.sav" , "rb"))
 
-breast_cancer_model = pickle.load(open("C:/Users/arsla/OneDrive/Desktop/ML_deploy/breast_cancer_model.sav" , "rb"))
+breast_cancer_model = pickle.load(open("breast_cancer_model.sav" , "rb"))
 
 
 # Sidebar for navigation
